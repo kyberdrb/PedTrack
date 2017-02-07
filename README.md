@@ -5,3 +5,5 @@ Android aplikácia na sledovanie polohy mobilného zariadenia
 
 Developed with Android Studio
 
+If it doesn't work out of the box, change directory name to 
+"PedTrack2"

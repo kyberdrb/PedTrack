@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Sledovanie">
+
+        <EditTextPreference
+            android:key="wifi_refresh_interval"
+            android:title="Wi-Fi obnovovací interval"
+            android:summary="Zadajte interval aktualizácie Wi-Fi polohy (1-10 sekúnd)"
+            android:dialogTitle="Zadajte hodnotu"
+            android:inputType="numberDecimal"
+            android:defaultValue="1"/>
+
+        <EditTextPreference
+            android:key="bt_refresh_interval"
+            android:title="Bluetooth obnovovací interval pre "
+            android:summary="Zadajte interval aktualizácie Bluetooth polohy (1-10 sekúnd)"
+            android:dialogTitle="Zadajte hodnotu"
+            android:inputType="numberDecimal"
+            android:defaultValue="1"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Anonymita">
+
+        <EditTextPreference
+            android:key="first_name"
+            android:title="Meno"
+            android:summary=""
+            android:dialogTitle="Meno"
+            android:defaultValue=""/>
+
+        <EditTextPreference
+            android:key="surname"
+            android:title="Priezvisko"
+            android:summary=""
+            android:dialogTitle="Priezvisko"
+            android:defaultValue=""/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Identifikátor zariadenia">
+
+        <EditTextPreference
+            android:key="device_id_wifi"
+            android:title=""
+            android:summary="MAC adresa Wi-Fi modulu"/>
+
+    </PreferenceCategory>
+</PreferenceScreen>

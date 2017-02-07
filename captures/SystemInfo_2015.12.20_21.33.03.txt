@@ -1,0 +1,32 @@
+Applications Memory Usage (kB):
+Uptime: 65919357 Realtime: 221305669
+
+** MEMINFO in pid 7801 [sk.uniza.fri.pedtrack] **
+                   Pss  Private  Private  Swapped     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap        0        0        0        0     3516     3243      272
+  Dalvik Heap     2464     2256        0        0    12672     5798     6874
+ Dalvik Other     1661     1548        0        0                           
+        Stack       20       20        0        0                           
+    Other dev        4        0        4        0                           
+     .so mmap     1240      868       24        0                           
+    .apk mmap       68        0       12        0                           
+    .ttf mmap        9        0        0        0                           
+    .dex mmap     2354       32     1748        0                           
+   Other mmap       13        8        0        0                           
+      Unknown     1871     1864        0        0                           
+        TOTAL     9704     6596     1788        0    16188     9041     7146
+ 
+ Objects
+               Views:       30         ViewRootImpl:        1
+         AppContexts:        5           Activities:        1
+              Assets:        3        AssetManagers:        3
+       Local Binders:       10        Proxy Binders:       25
+    Death Recipients:        1
+     OpenSSL Sockets:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+ 

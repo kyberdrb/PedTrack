@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    api-level="1"
+    format="7"
+    timestamp="2863523964891"
+    token="6331184743870291196" >
+
+    <task
+        name="javac"
+        duration="402" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="488" />
+    <task
+        name="verifier"
+        duration="23" />
+
+    <artifact
+        location="/home/andrej/Desktop/PedTrack2/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
+
+    <build timestamp="2863523964891" >
+        <artifact
+            location="/home/andrej/Desktop/PedTrack2/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>
